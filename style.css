@@ -209,7 +209,7 @@ button:hover{
 }
 
 #about{
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100%;
     /* background-color: #fafafa; */
 }
@@ -237,7 +237,7 @@ button:hover{
 .heading p{
     text-align: center;
     letter-spacing: 0px;
-    font-size: 20px;
+    font-size: 16px;
     width: 50%;
 }
 
@@ -248,7 +248,7 @@ button:hover{
 }
 
 .headingleft p{
-    font-size: 20px;
+    font-size: 16px;
 }
 .headingleft h1{
     letter-spacing: 3px;
@@ -328,7 +328,7 @@ button:hover{
 }
 
 .skills{
-    height: 40px;
+    height: 45px;
     width: 100px;
     background-color: #e7e7e7;
     padding: 10px;
@@ -447,7 +447,7 @@ button:hover{
 }
 
 .contact-main{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
