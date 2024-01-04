@@ -215,6 +215,9 @@ button:hover{
 }
 
 #aboutcontent{
+    height: 90%;
+    width: 100%;
+    background-color: #e7e7e745;
     display: flex;
 }
 
