@@ -5,6 +5,10 @@
     font-family: "gilroy";
     scroll-behavior: smooth;
 }
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-SemiBold\ font\ ttf.ttf);
+}
 
 html, body{
     height: 100%;
@@ -162,7 +166,7 @@ hr{
 .pg1right p{
     text-align: center;
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 20px;
     width: 90%;
 }
 
@@ -233,7 +237,7 @@ button:hover{
 .heading p{
     text-align: center;
     letter-spacing: 0px;
-    font-size: 15px;
+    font-size: 20px;
     width: 50%;
 }
 
@@ -241,6 +245,10 @@ button:hover{
     height: calc(120vh - 170px);
     width: 50%;
     padding: 50px;
+}
+
+.headingleft p{
+    font-size: 20px;
 }
 .headingleft h1{
     letter-spacing: 3px;
@@ -390,6 +398,7 @@ button:hover{
 .projectright p{
     margin-top: 20px;
     opacity: .7;
+    font-size: 16px;
 }
 
 .projectright button{
@@ -447,7 +456,7 @@ button:hover{
 }
 
 .contact-us{
-    height: 500px;
+    height: 550px;
     width: 60%;
     background-color: #e7e7e7;
     border-radius: 20px;
@@ -512,6 +521,7 @@ button:hover{
   }
 
   #footer{
+    margin-top: 50px;
     height: 200px;
     width: 100%;
     background-color: black;
