@@ -217,7 +217,9 @@ button:hover{
 #aboutcontent{
     height: 90%;
     width: 100%;
-    background-color: #e7e7e745;
+    background: url(https://img.freepik.com/premium-vector/abstract-white-grey-gradient-with-modern-geometric-pattern-background-graphic-design_120819-1299.jpg?w=1380);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
 }
 
