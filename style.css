@@ -452,9 +452,6 @@ button:hover{
 }
 
 .contact-main{
-    background: url(https://img.freepik.com/premium-vector/abstract-white-grey-gradient-with-modern-geometric-pattern-background-graphic-design_120819-1299.jpg?w=1380);
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     display: flex;
