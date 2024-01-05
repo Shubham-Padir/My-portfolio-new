@@ -602,6 +602,25 @@ button:hover{
     letter-spacing: 2px;
  }
 
+ #loader{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #loader h2{
+    color: white;
+    font-size: 3vw;
+    letter-spacing: 2px;
+    opacity: .8;
+ }
+
 
 
 

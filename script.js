@@ -24,6 +24,31 @@ let nav = document.querySelector("#nav");
   }
     
  })
+
+
+ let tl = gsap.timeline()
+tl.from("#loader h2",{
+    x:100,
+    opacity:0,
+    duration:2,
+    stagger:.3,
+})
+
+tl.to("#loader h2",{
+    opacity:0,
+    x:-40,
+    duration:1,
+    stagger:-0.1,
+})
+
+tl.to("#loader",{
+    opacity:0,
+    display:"none",
+})
+tl.to("#loader",{
+    display:"none",
+})
+
  
 //  let full1 = document.querySelector("#full-scr")
 //  let fulldiv = document.querySelector(".full-div1")
@@ -42,3 +67,4 @@ let nav = document.querySelector("#nav");
 //   }
    
 //  })
+
