@@ -1,4 +1,7 @@
-
+// const scroll = new LocomotiveScroll({
+//   el: document.querySelector('#main'),
+//   smooth: true
+// });
 
 let nav = document.querySelector("#nav");
  let sticky = nav.offsetTop;
@@ -48,6 +51,8 @@ tl.to("#loader",{
 tl.to("#loader",{
     display:"none",
 })
+
+
 
  
 //  let full1 = document.querySelector("#full-scr")

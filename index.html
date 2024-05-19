@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shubham Padir</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="sp logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="responsive.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
 </head>
 
 <body>
@@ -38,11 +42,13 @@
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contacts</a>
                 <i class="ri-menu-line"></i>
+                
             </div>
         </div>
 
         <div id="page1">
             <div class="pg1left">
+                
                 <div class="box">
                     <a href="https://github.com/Shubham-Padir"><i class="ri-github-fill"></i></a>
                     <a href="https://www.linkedin.com/in/shubham-padir-05-web-developer1659256/"><i
@@ -60,6 +66,9 @@
             <div class="pg1-bottom">
                 <img src="https://i.pinimg.com/originals/78/5a/1b/785a1b9c359640da6bc9cfe3670b42ba.png" alt="">
             </div>
+            <!-- <div class="moon">
+                <i class="ri-moon-line"></i>
+            </div> -->
         </div>
         <div id="about">
             <div class="heading">
@@ -165,22 +174,14 @@
                 <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
                 </p>
             </div>
-            <div class="contact-main">
-                <div class="contact-us">
-                    <div id="box">
-
-                        <input type="text" placeholder="Enter your name ">
-                        <input type="email" placeholder="Enter your email">
-                        <textarea required="" cols="30" rows="10" class="contact__form-input"
-                            placeholder="Enter Your Message" name="message" id="message"></textarea>
-
-                        <div id="btn">
-                            <button>Submit</button>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+           <div id="contact-main" >
+            <form action="https://formspree.io/f/xleqvqgn" method='POST'>
+                <input type="text" name="Username" placeholder="Enter your name" autocomplete="off" required>
+                <input type="email" name="Name" placeholder="Enter your email" autocomplete="off" required>
+                <textarea name="message" placeholder="enter your message" rows="6" cols="30" autocomplete="off" id=""></textarea>
+                <input class="submit" type="submit" name="" id="">
+            </form>
+           </div>
         </div>
         <div id="footer">
             <div class="footerleft">
@@ -205,6 +206,7 @@
             <h5>&copy;Copyright 2024. Made by SHUBHAM PADIR</h5>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
